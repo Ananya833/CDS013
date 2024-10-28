@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("symbg_enhanced.jpg");
+            background-repeat: no-repeat;
+            background-attachment:fixed ;
+            background-size: cover;
+        }
+        #head{
+            padding-top: 40px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+        }
+        #content{
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+            padding-left: 50px;
+        }
+        #topnav{
+            padding-top:-100px;
+        }
+
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        nav ul {
+                list-style-type: none;
+                overflow: hidden;
+        }
+
+        nav ul li {
+                    float: left;
+        }
+
+        nav ul li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                     text-decoration: none;
+        }
+
+        nav ul li a:hover {
+                            background-color: #111;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: black;
+           
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+       
+        .dropdown-content a:hover {
+            background-color: #111010;
+            color: aliceblue;
+        }
+
+       
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <h1>Symptoms</h1>
+        <p>The symptoms of HIV vary depending on the stage of infection</p><hr>
+    </div>
+    <div id="content">
+        <p>HIV spreads more easily in the first few months after a person is infected, but many are unaware of their status until the later stages. In the first few weeks after being infected people may not experience symptoms. Others may have an influenza-like illness including:
+            <br><br>
+            <UL>
+                <li>Fever</li>
+                <LI>Headache</LI>
+                <li>Rash</li>
+                <li>Sore throat.</li>
+            </UL>
+            <br>
+            The infection progressively weakens the immune system. This can cause other signs and symptoms:
+            <br>
+            <ul>
+                <li>Swollen lymph nodes</li>
+                <li>Weight loss</li>
+                <li>Fever</li>
+                <li>Diarrhoea</li>
+                <li>Cough</li>
+            </ul>
+            <img src="symimg.jpg"><br><br>
+            Without treatment, people living with HIV infection can also develop severe illnesses:
+            <br>
+            <UL>
+                <li>Tuberculosis (TB)</li>
+                <li>Cryptococcal Meningitis</li>
+                <li>Severe Bacterial Infections</li>
+                <li>Cancers such as lymphomas and Kaposi's sarcoma.</li>
+            </UL>
+            <br>
+            HIV causes other infections to get worse, such as hepatitis C, hepatitis B and mpox.</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <LI><div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="stages.html">Stages</a>
+                    <a href="sym.html">Symptoms</a>
+                    <a href="trans.html">Transmission</a>
+                    <a href="diag.html">Diagnosis</a>
+                    <a href="prevent.html"> Preventions</a>
+                </div>
+    
+            </LI>
+            <li><a href="myth.html">Myths</a></li>
+            <li><a href="doc.html">Doctor's corner</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

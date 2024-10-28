@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("dbg.png");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #d1{
+            color:  rgb(255, 255, 255);
+            font-size: x-large;
+            background-color: rgb(47, 35, 151);
+            opacity: 0.9;
+            padding-top: 20px;
+            padding-right: 10px;
+            text-align: right;
+            margin-top: auto;
+        }
+        #d1 img{
+            padding-top: 30px;
+            padding-left: ;
+            height: 300px;
+            width: auto;
+            border-radius: 80%;
+            float: inline-start;
+        }
+        #d2{
+            color: rgb(15, 17, 165);
+            font-size: x-large;
+            background-color: rgb(255, 255, 255);
+            opacity: 0.8;
+            text-align: left;
+            margin-top: auto;
+        }
+        #d2 img{
+            height: 300px;
+            width: 300;
+            border-radius: 50%;
+            float: right;
+        }
+        #topnav{
+            padding-top:-100px;
+        }
+
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        nav ul {
+                list-style-type: none;
+                overflow: hidden;
+        }
+
+        nav ul li {
+                    float: left;
+        }
+
+        nav ul li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                     text-decoration: none;
+        }
+
+        nav ul li a:hover {
+                            background-color: #111;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: black;
+           
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+       
+        .dropdown-content a:hover {
+            background-color: #111010;
+            color: aliceblue;
+        }
+
+       
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <img src="d2.jpeg">
+        <h1>Diagnosis</h1>
+        <p><strong>HIV/AIDS is diagnosed via laboratory testing and then staged based on the presence of certain signs or symptoms. HIV screening is recommended by the United States Preventive Services Task Force for all people 15 years to 65 years of age, including all pregnant women. Additionally, testing is recommended for those at high risk, which includes anyone diagnosed with a sexually transmitted illness. In many areas of the world, a third of HIV carriers only discover they are infected at an advanced stage of the disease when AIDS or severe immunodeficiency has become apparent.</strong>
+        </p>
+    </div>
+    <div id="d2">
+        <img src="d1.jpg">
+        <h1>HIV Testing</h1>
+        <p><strong> people infected with HIV develop seroconverted (antigen-specific) antibodies within three to twelve weeks after the initial infection. Diagnosis of primary HIV before seroconversion is done by measuring HIV-RNA or p24 antigen. Positive results obtained by antibody or PCR testing are confirmed either by a different antibody or by PCR.
+        <br>
+        Antibody tests in children younger than 18 months are typically inaccurate, due to the continued presence of maternal antibodies. Thus HIV infection can only be diagnosed by PCR testing for HIV RNA or DNA, or via testing for the p24 antigen. Much of the world lacks access to reliable PCR testing, and people in many places simply wait until either symptoms develop or the child is old enough for accurate antibody testing. In sub-Saharan Africa between 2007 and 2009, between 30% and 70% of the population were aware of their HIV status. In 2009, between 3.6% and 42% of men and women in sub-Saharan countries were tested; this represented a significant increase compared to previous years.
+        </strong>   
+        </p>
+        
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <LI><div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                    <a href="stages.html">Stages</a>
+                    <a href="sym.html">Symptoms</a>
+                    <a href="trans.html">Transmission</a>
+                    <a href="diag.html">Diagnosis</a>
+                    <a href="prevent.html"> Preventions</a>
+                </div>
+
+            </LI>
+            <li><a href="myth.html">Myths</a></li>
+            <li><a href="epidemiology.html">Epidemiology</a></li>
+            <li><a href="doc.html">Doctor's corner</a></li>
+        </ul>
+</body>
+</html>

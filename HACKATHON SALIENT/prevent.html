@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #prevent p{
+            font-size: x-large;
+            color: azure;
+        }
+        #prevent ul{
+            font-size: x-large;
+            color: azure;
+        }
+        #prevent img{
+            height: 750px;
+            width: fit-content;
+        }
+        #topnav{
+            padding-top:-100px;
+        }
+
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        nav ul {
+                list-style-type: none;
+                overflow: hidden;
+        }
+
+        nav ul li {
+                    float: left;
+        }
+
+        nav ul li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                     text-decoration: none;
+        }
+
+        nav ul li a:hover {
+                            background-color: #111;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: black;
+           
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+       
+        .dropdown-content a:hover {
+            background-color: #111010;
+            color: aliceblue;
+        }
+
+       
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="prevent">
+        
+        <img src="p1.jpg">
+        
+        <p><strong>HIV is a preventable disease.  Reduce the risk of HIV infection by:
+        <ul>
+            <li>using a male or female condom during sex</li>
+            <li>being tested for HIV and sexually transmitted infections</li>
+            <li>having a voluntary medical male circumcision</li>
+            <li>using harm reduction services for people who inject and use drugs.</li>
+        </ul>
+        <br>
+            <p>Doctors may suggest medicines and medical devices to help prevent HIV infection, including:</p>
+        <ul>  
+            <li>antiretroviral drugs (ARVs), including oral Pre-Exposure Prophylaxis (PrEP) and long acting products</li>
+            <li>dapivirine vaginal rings</li>
+            <li>injectable long acting cabotegravir.</li>
+            <li>ARVs can also be used to prevent mothers from passing HIV to their children.</li>
+        </ul>
+            
+            <p>People taking antiretroviral therapy (ART) and who have no evidence of virus in the blood will not pass HIV to their sexual partners. Access to testing and ART is an important part of preventing HIV.</p></strong></p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <LI><div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="stages.html">Stages</a>
+                    <a href="sym.html">Symptoms</a>
+                    <a href="trans.html">Transmission</a>
+                    <a href="diag.html">Diagnosis</a>
+                    <a href="prevent.html"> Preventions</a>
+                </div>
+    
+            </LI>
+            <li><a href="myth.html">Myths</a></li>
+            <li><a href="epidemiology.html">Epidemiology</a></li>
+            <li><a href="doc.html">Doctor's corner</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

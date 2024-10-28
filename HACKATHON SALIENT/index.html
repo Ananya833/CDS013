@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("Untitled Project.jpg");
+            background-attachment: fixed;
+            background-repeat: repeat;
+            background-size: cover;
+        }
+        #img{
+            width: 100%;
+            height: auto;
+        }
+        #img img{
+            margin-top: -5px;
+            height: 610px;
+            width: 100%;
+        }
+        #topnav{
+            padding-top:-100px;
+        }
+
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        nav ul {
+                list-style-type: none;
+                overflow: hidden;
+        }
+
+        nav ul li {
+                    float: left;
+        }
+
+        nav ul li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                     text-decoration: none;
+        }
+
+        nav ul li a:hover {
+                            background-color: #111;
+        }
+        #link{
+            background-color: rgb(0, 0, 0);
+            font-size: large;
+        }
+        #aids{
+            font-size: 40px;
+            font-family:cursive ;
+            padding-right: 30px;
+            padding-top: 30px;
+        }
+        #reg{
+            margin-top: 400px;
+            width: 200px;
+            height: 100px;
+            background-color: aliceblue;
+            border-color: red;
+            border-radius: 75px;
+        }
+        #reg{
+            position: relative;
+            bottom: 50%;
+            left: 50%;
+            background-color: rgb(199, 20, 20);
+            color: azure;
+            margin-top: -150px;
+            margin-left: -600px;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: black;
+           
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+       
+        .dropdown-content a:hover {
+            background-color: #111010;
+            color: aliceblue;
+        }
+
+       
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+        }
+        #heading{
+            padding-top: 50px;
+            color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #content{
+            text-align: center;
+            line-height: 1.8;
+        }
+        #img img{
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            height: auto;
+            padding-top: 90px;
+            padding-left: 15px;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+            float: left;
+        }
+        #img img:hover{
+            transform: scale(1.1);
+            
+        }
+        #content img{
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        #content img:hover{
+            transform: scale(1.2);
+
+        }
+        #stat{
+            text-align: right;
+            padding-top: 150px;
+            color: bisque;
+            padding-right: 40px;
+        }
+        #content p{
+            background-blend-mode:luminosity;
+        }
+    </style>
+</head>
+<body>
+    <div id="img">
+        <img src="in.jpg">
+        <div id="stat">
+            <h1>Latest news on HIV</h1>
+            <a style="font-size: x-large; color: rgb(255, 234, 254);" href="https://medicalxpress.com/news/2024-10-multiomics-hiv-progressors-reveals-immunity.html">Multiomics of HIV non-progressors reveals immunity behind AIDS evasion</a>
+            <p>24th October 2024</p>
+            <a style="font-size: x-large; color:rgb(255, 234, 254) ;" href="https://medicalxpress.com/news/2024-10-success-hiv-drug-hinges-pricing.html">Success of long-lasting HIV drug hinges on pricing</a>
+            <p>22nd October 2024</p>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <LI><div class="dropdown">
+                    <button class="dropbtn">About</button>
+                    <div class="dropdown-content">
+                        <a href="stages.html">Stages</a>
+                        <a href="sym.html">Symptoms</a>
+                        <a href="trans.html">Transmission</a>
+                        <a href="diag.html">Diagnosis</a>
+                        <a href="prevent.html"> Preventions</a>
+                    </div>
+
+                </LI>
+                <li><a href="myth.html">Myths</a></li>
+                <li><a href="doc.html">Doctor's corner</a></li>
+            </ul>
+            <div id="link">
+                <marquee><a style="color: aqua;" href="inspire.html">Click here to know about those warriors who defeated it and won in their lives.</a></marquee>
+            </div>
+            
+        </nav>
+    </div>
+    <br>
+    <hr>
+    <div id="heading">
+        <br>
+
+            <div id="content"><img src="img.jpeg"><h1> Acquired Immuno-Deficiency syndrome</h1><br><p><strong> Human immunodeficiency virus (HIV) is a virus that attacks the body’s immune system. Acquired immunodeficiency syndrome (AIDS) occurs at the most advanced stage of infection.
+
+                HIV targets the body’s white blood cells, weakening the immune system. This makes it easier to get sick with diseases like tuberculosis, infections and some cancers.
+                
+                HIV is spread primarily by unprotected sex (including anal and vaginal sex), contaminated hypodermic needles or blood transfusions, and from mother to child during pregnancy, delivery, or breastfeeding. Some bodily fluids, such as saliva, sweat, and tears, do not transmit the virus. Oral sex has little risk of  transmitting the virus. Ways to avoid catching HIV and preventing the spread include safe sex, treatment to prevent infection ("PrEP"), treatment to stop infection in someone who has been recently exposed ("PEP"), treating those who are infected, and needle exchange programs. Disease in a baby can often be prevented by giving both the mother and child antiretroviral medication.
+                
+                HIV can be prevented and treated with antiretroviral therapy (ART). Untreated HIV can progress to AIDS, often after many years.
+                
+                There is no vaccine or cure for HIV. An HIV-positive person on treatment can expect to live a normal life, and die with the virus, not of it.
+                
+                WHO now defines Advanced HIV Disease (AHD) as CD4 cell count less than 200 cells/mm3 or WHO stage 3 or 4 in adults and adolescents. All children younger than 5 years of age living with HIV are considered to have advanced HIV disease.</strong></p></div>
+                
+            </div>
+            
+            
+    
+</body>
+</html>
